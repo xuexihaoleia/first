@@ -1,1 +1,8 @@
-
+spring:
+  server:
+     port: 8081
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver.
+    url: jdbc:mysql://www.litianliu.top:3306/ermSystem?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: llxxuin
